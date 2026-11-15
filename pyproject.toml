@@ -1,0 +1,14 @@
+[project]
+name = "interplay-eval"
+version = "0.1.0"
+description = "Baseline evaluation of Interplay-LM-Reasoning checkpoints"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers==4.55.0",
+    "datasets",
+    "huggingface-hub",
+]
+
+[tool.uv]
+package = false
