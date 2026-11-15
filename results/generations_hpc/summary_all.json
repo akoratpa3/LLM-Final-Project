@@ -1,0 +1,87 @@
+{
+  "ar-100m_base": {
+    "ID (2-10)": {
+      "correct": 877,
+      "total": 900,
+      "accuracy": 0.9744444444444444
+    },
+    "edge (11-14)": {
+      "correct": 100,
+      "total": 400,
+      "accuracy": 0.25
+    },
+    "hard (15-20)": {
+      "correct": 64,
+      "total": 600,
+      "accuracy": 0.10666666666666667
+    }
+  },
+  "ar-100m_rl-op7-10": {
+    "ID (2-10)": {
+      "correct": 879,
+      "total": 900,
+      "accuracy": 0.9766666666666667
+    },
+    "edge (11-14)": {
+      "correct": 102,
+      "total": 400,
+      "accuracy": 0.255
+    },
+    "hard (15-20)": {
+      "correct": 77,
+      "total": 600,
+      "accuracy": 0.12833333333333333
+    }
+  },
+  "ar-100m_rl-op9-12": {
+    "ID (2-10)": {
+      "correct": 886,
+      "total": 900,
+      "accuracy": 0.9844444444444445
+    },
+    "edge (11-14)": {
+      "correct": 255,
+      "total": 400,
+      "accuracy": 0.6375
+    },
+    "hard (15-20)": {
+      "correct": 78,
+      "total": 600,
+      "accuracy": 0.13
+    }
+  },
+  "ar-100m_rl-op11-14": {
+    "ID (2-10)": {
+      "correct": 875,
+      "total": 900,
+      "accuracy": 0.9722222222222222
+    },
+    "edge (11-14)": {
+      "correct": 302,
+      "total": 400,
+      "accuracy": 0.755
+    },
+    "hard (15-20)": {
+      "correct": 132,
+      "total": 600,
+      "accuracy": 0.22
+    }
+  },
+  "ar-100m_rl-op17-20": {
+    "ID (2-10)": {
+      "correct": 673,
+      "total": 900,
+      "accuracy": 0.7477777777777778
+    },
+    "edge (11-14)": {
+      "correct": 126,
+      "total": 400,
+      "accuracy": 0.315
+    },
+    "hard (15-20)": {
+      "correct": 91,
+      "total": 600,
+      "accuracy": 0.15166666666666667
+    }
+  }
+}
