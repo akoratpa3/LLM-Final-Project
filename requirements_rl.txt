@@ -1,0 +1,18 @@
+# exact versions for the repo's RL pipeline (verl + vLLM + LLaMA-Factory).
+# Use a SEPARATE environment from your usual one (these are older on purpose).
+#
+# Python 3.12. Install in this order, from the repo root:
+#   uv venv --python 3.12 .venv-rl && source .venv-rl/bin/activate
+#   uv pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu128
+#   uv pip install -r scripts/person_b/requirements_rl.txt
+#   uv pip install transformers==4.55.0        # re-pin last in case anything upgraded it
+#
+# Why these versions:
+#   torch 2.7.1 + cu128 : what vLLM 0.10.1.1 is built against (a CUDA 13.x driver runs cu128 builds fine)
+#   vllm 0.10.1.1       : pinned in the repo README
+#   transformers 4.55.0 : the checkpoints were saved with it; 5.x silently drops accuracy 94% -> 33%
+
+vllm==0.10.1.1
+transformers==4.55.0
+-e ./LLaMA-Factory
+-e ./verl[vllm]
